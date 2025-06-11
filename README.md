@@ -35,7 +35,9 @@ Game bomber that has been released commercially at the start of 2003. It was com
 
 Game was developed on Nokia 7650 and runs on other S60 phones. Game source was developed using Nokia J2ME SDK and Sun Studio ONE mobile edition. Game uses J2ME 1.0.
 
----
+## Attribution
+
+Pixel art by Miha Grčar
 
 
 
