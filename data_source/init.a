@@ -1,0 +1,13 @@
+# title
+#byte 1	# 1 image
+#byte  28 35 #center
+#include wtlogo.png
+
+byte 1	# 1 image
+byte  45 41 #center
+include plane_wt_logo.png
+
+
+
+#byte  45 82 #center
+#include logo_2.png

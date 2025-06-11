@@ -1,0 +1,145 @@
+# intro mission (2x factory + 3x tanks)
+
+#	NOTES
+#	There must be at least one target (flags == 1)
+
+short 7		# number of mission data shorts
+short 20 	# timer
+
+short 0 -160 0		# player start (x, y, angle)
+short 443 -100 180	# enemy start (x, y, angle)
+
+# types
+# 0 - tree (byte type, short pos)
+# 1 - tank (byte type, short pos)
+# 2 - building (byte type, short pos, byte hitpoints)
+# 3 - cloud (byte type, short x, short y, short vx)
+
+# buildings
+# 0 - barn    13
+# 1 - church  15
+# 2 - house   12
+# 3 - factory 17
+# 4 - hangar  18
+
+
+# trees
+# 0 - normaln  12
+# 1 - smreka   12
+
+# ---------------drevesa --------------
+byte 0	# tree
+byte 1 	# smreka
+short 40
+int 0
+
+byte 0	# tree
+byte 1 	# smreka
+short 70
+int 0
+
+
+byte 0	# tree
+byte 1 	# smreka
+short 95
+int 0
+
+byte 0	# tree
+byte 1 	# smreka
+short 120
+int 0
+
+byte 0	# tree
+byte 1 	# smreka
+short 145
+int 0
+
+byte 0	# tree
+byte 1 	# smreka
+short 430
+int 0
+
+#------------ bajte ------------------
+
+
+byte 2  # building
+byte 3  # factory
+short 234
+byte 6
+int	1	# flags
+
+
+
+byte 2  # building
+byte 3  # factory
+short 273
+byte 6
+int	1	# flags
+
+#byte 2  # building
+#byte 3  # factory
+#short 344
+#byte 6
+#int	1	# flags
+
+#------------ tanki ------------------
+
+byte 1  # tank
+byte 0	# type 0
+short 320
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 350
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 379
+int 		1 #flags
+
+
+byte 4  # zeppelin
+short 290	# x
+short -210	# y
+short 1024
+short 40
+int 	0	# flags
+
+# ------ oblaki
+# 3 - cloud (byte type, short x, short y, short vx)
+
+byte 3  # cloud
+byte 0	# type 0
+short 100
+short -100
+short 2
+
+byte 3  # cloud
+byte 0	# type 0
+short 340
+short -160
+short 3
+
+byte 3  # cloud
+byte 0	# type 0
+short 40
+short -120
+short 2
+
+byte 3  # cloud
+byte 0	# type 0
+short 300
+short -140
+short 1
+
+byte 3  # cloud
+byte 0	# type 0
+short 200
+short -120
+short 2
+
+
+
+byte -1		#end

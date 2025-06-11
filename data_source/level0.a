@@ -1,0 +1,182 @@
+# tanks in the pond :)
+
+#	NOTES
+#	There must be at least one target (flags == 1)
+
+short 7		# number of mission data shorts
+short 30 	# timer
+short -20 -100 0		# player start (x, y, angle)
+short 1000 -100 180		# enemy start (x, y, angle)
+
+# types
+# 0 - tree (byte type, short pos)
+# 1 - tank (byte type, short pos)
+# 2 - building (byte type, short pos, byte hitpoints)
+# 3 - cloud (byte type, short x, short y, short vx)
+
+# buildings
+# 0 - barn    26
+# 1 - church  30
+# 2 - house   24
+# 3 - factory 34
+# 4 - hangar  36
+
+
+# trees
+# 0 - normaln  24
+# 1 - smreka   24
+
+# tanks
+# 0 - normal 16
+
+# ---------------drevesa --------------
+byte 0	# tree
+byte 0 	# normal
+short 107
+int 0
+
+byte 0	# tree
+byte 0 	# normal
+short 250
+int 0
+
+byte 0	# tree
+byte 0 	# normal
+short 720
+int 0
+
+byte 0	# tree
+byte 0 	# normal
+short 750
+int 0
+
+
+
+
+#------------ bajte ------------------
+
+
+byte 2  # building
+byte 4  # hangar
+short 150
+byte 6
+int	0	# flags
+
+
+byte 2  # building
+byte 1  # church
+short 289
+byte 6
+int	0	# flags
+
+byte 2  # building
+byte 2  # house
+short 830
+byte 6
+int	0	# flags
+
+byte 2  # building
+byte 2  # house
+short 870
+byte 6
+int	0	# flags
+
+byte 2  # building
+byte 0  # barn
+short 900
+byte 6
+int	0	# flags
+
+
+#------------ tanki ------------------
+
+
+
+byte 1  # tank
+byte 0	# type 0
+short 197
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 220
+int 		2 #flags
+
+
+byte 5  # sub
+short 420 -40
+int 		1 #flags
+
+byte 5  # sub
+short 609 -25
+int 		2 #flags
+
+
+byte 5  # sub
+short 520 -30
+int 		2 #flags
+
+
+
+
+
+
+byte 1  # tank
+byte 0	# type 0
+short 781
+int 1
+
+byte 1  # tank
+byte 0	# type 0
+short 805
+int 1
+
+byte 1  # tank
+byte 0	# type 0
+short 940
+int  2
+
+byte 1  # tank
+byte 0	# type 0
+short 970
+int  2
+# ------ oblaki
+# 3 - cloud (byte type, short x, short y, short vx)
+
+byte 3  # cloud
+byte 0	# type 0
+short 100
+short -100
+short 2
+
+byte 3  # cloud
+byte 0	# type 0
+short 340
+short -160
+short 3
+
+byte 3  # cloud
+byte 0	# type 0
+short 40
+short -120
+short 2
+
+
+
+
+byte 3  # cloud
+byte 0	# type 0
+short 300
+short -140
+short 1
+
+
+byte 3  # cloud
+byte 0	# type 0
+short 200
+short -120
+short 2
+
+
+byte -1		#end
+

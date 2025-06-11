@@ -1,0 +1,226 @@
+# player plane
+byte 4		# number of images in sprite plane 1
+byte 7 4
+include plane1.png
+byte 6 7
+include plane2.png
+byte 5 8
+include plane3.png
+byte 5 8
+include plane4.png
+
+byte 4		# number of images in sprite water plane 1
+byte 7 4
+include wplane1.png
+byte 6 7
+include wplane2.png
+byte 5 8
+include wplane3.png
+byte 5 8
+include wplane4.png
+
+
+# enemy plane
+byte 4		# number of images in sprite plane 2
+byte 7 4
+include e_plane1.png
+byte 6 7
+include e_plane2.png
+byte 5 8
+include e_plane3.png
+byte 5 8
+include e_plane4.png
+
+byte 4		# number of images in sprite water plane 2
+byte 7 4
+include we_plane1.png
+byte 6 7
+include we_plane2.png
+byte 5 8
+include we_plane3.png
+byte 5 8
+include we_plane4.png
+
+
+byte 1
+byte 14 6
+include debris.png
+
+#byte -4		# number of images in sprite plane
+#byte 16 9 7 4
+#byte 15 13 6 7
+#byte 13 14 5 8
+#byte 10 16 5 8
+#include plane_green.png
+
+
+#enemy plane 
+#byte 4		# number of images in sprite plane
+#byte 7 4
+#include e_plane1.png
+#byte 6 7
+#include e_plane2.png
+#byte 5 8
+#include e_plane3.png
+#byte 5 8
+#include e_plane4.png
+
+byte 1	# number of images in cloud
+byte 0 0
+include cloud1.png
+# bomb
+#insert bomb.bin
+byte 4
+byte 6 2
+include bb1.png
+byte 6 4
+include bb2.png
+byte 6 5
+include bb3.png
+byte 4 6
+include bb4.png
+
+byte 4
+byte 6 2
+include water_bb1.png
+byte 6 4
+include water_bb2.png
+byte 6 5
+include water_bb3.png
+byte 4 6
+include water_bb4.png
+
+
+
+
+
+byte 1	# number of images in this building (hlev)
+byte 13 14
+include hlev.png
+
+byte 1	# number of images in this building (cerkvica)
+byte 15 29
+include cerkvica.png
+
+byte 1	# number of images in this building (house)
+byte 12 16
+include bajtica.png
+
+byte 1	# number of images in this building (factory)
+byte 17 24
+include factory.png
+
+byte 1	# number of images in this building (hangar)
+byte 18 14
+include hangar.png
+
+
+byte 1	# number of images for background 
+byte 0 89
+include ozadje.jpg
+
+byte 1	# number of images for scoreboard
+byte 0 0
+include scoreboard.jpg
+
+byte -14	# number of (condensed) images for scoreboard numbers
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 7 10 0 0
+byte 8 10 0 -1
+byte 8 10 0 -1
+byte 8 10 0 -1
+byte 8 10 0 -1
+include stevilke.png
+
+byte 0	# number of images in this (tank)
+byte 3	# 3 bytes of user data
+byte 8 1 7	# x and y pos of gun and its length
+byte 1
+
+byte 8 9 
+include tank.png
+
+insert font.b	# imports font data
+
+byte 1	# number of images for tree 1
+byte 12 26
+include tree.png
+
+byte 1	# number of images for tree 2
+byte 10 20
+include tree2.png
+
+
+byte 1	# number of images for palm
+byte 12 22
+include tree_palm.png
+
+
+
+
+byte 1	# number of images for sun
+byte 11 21
+include sun.png
+
+byte 5	# number of images for icons
+byte 6 5
+include icon1.png
+byte 0 0
+include icon2.png
+byte 0 0
+include icon3.png
+byte 0 0
+include icon_plane.png
+byte 0 0
+include icon_clock.png
+
+
+#byte 1	# number of images for icons
+#6 13
+#include icons.png
+
+
+byte 1	# number of images for wood tile
+byte 0 0
+include wood_tile.jpg
+
+byte 2	# number of images in indicator
+byte 4 5
+include indicator.png
+byte 6 7
+include indicator2.png
+
+byte 5	# number of images in indicator
+byte 0 0
+include title_bomber.jpg
+byte 0 0
+include low_banner.jpg
+byte 0 0
+include briefing.png
+byte 0 0
+include victory.png
+byte 0 0
+include banner_small_two_planes2.jpg
+
+byte 0	# number of images in this (zeppelin)
+byte 3	# 3 bytes of user data
+byte 27 19 7	# x and y pos of gun and its length
+byte 1
+byte 27 12
+include zeppelin.png
+
+byte 0	# number of images in this (zeppelin)
+byte 3	# 3 bytes of user data
+byte 18 3 7	# x and y pos of gun and its length
+byte 1
+byte 18 9
+include sub.png
+

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tobin", "tobin.csproj", "{5336ACEC-37D5-4DF9-8351-ADB752E297BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5336ACEC-37D5-4DF9-8351-ADB752E297BD}.Debug.ActiveCfg = Debug|.NET
+		{5336ACEC-37D5-4DF9-8351-ADB752E297BD}.Debug.Build.0 = Debug|.NET
+		{5336ACEC-37D5-4DF9-8351-ADB752E297BD}.Release.ActiveCfg = Release|.NET
+		{5336ACEC-37D5-4DF9-8351-ADB752E297BD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

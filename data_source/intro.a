@@ -1,0 +1,72 @@
+short 0	# no mission data
+
+# types
+# 0 - tree (byte type, short pos)
+# 1 - tank (byte type, short pos)
+# 2 - building (byte type, short pos, byte hitpoints)
+# 3 - cloud (byte type, short x, short y, short vx)
+
+# buildings
+# 0 - barn    13
+# 1 - church  15
+# 2 - house   12
+# 3 - factory 17
+# 4 - hangar  18
+
+
+# trees
+# 0 - normaln  12
+# 1 - smreka   12
+
+# ---------------drevesa --------------
+byte 0	# tree
+byte 2 	# palma
+short 65
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 75
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 92
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 101
+int 0
+
+
+byte 0	# tree
+byte 2 	# palma
+short 151
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 171
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 185
+int 0
+
+
+
+
+byte 2  # building
+byte 3  # factory
+short 130
+byte 6
+int	1	# flags
+
+
+
+
+
+byte -1		#end
+

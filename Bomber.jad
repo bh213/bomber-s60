@@ -1,0 +1,12 @@
+MIDlet-Jar-Size: 115950
+MIDlet-1: Bomber, /bomber/bin/bomb_icon.png, bomber.BomberMIDlet 
+MIDlet-Jar-URL: Bomber.jar 
+MIDlet-Icon: /bomber/bin/bomb_icon.png 
+MicroEdition-Configuration: CLDC-1.0 
+MIDlet-Version: 1.1.4
+MIDlet-Name: Bomber 
+MIDlet-Description: Bomber game 
+MIDlet-Data-Size: 300 
+MIDlet-Vendor: WhileTrue 
+MIDlet-Info-URL: www.whiletrue.com
+MicroEdition-Profile: MIDP-1.0 

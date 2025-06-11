@@ -1,0 +1,174 @@
+# Clean the island mission
+
+
+#	NOTES
+#	There must be at least one target (flags == 1)
+
+short 7			# number of shorts
+short 35 		# timer
+short 0 -90 0		# player start (x, y, angle)
+short 600 -70 180	# enemy start (x, y, angle)
+
+
+# types
+# 0 - tree (byte type, short pos)
+# 1 - tank (byte type, short pos)
+# 2 - building (byte type, short pos, byte hitpoints)
+# 3 - cloud (byte type, short x, short y, short vx)
+
+# buildings
+# 0 - barn    13
+# 1 - church  15
+# 2 - house   12
+# 3 - factory 17
+# 4 - hangar  18
+
+
+# trees
+# 0 - normaln  12
+# 1 - smreka   12
+
+byte 0	# tree
+byte 2 	# palma
+short 43
+int 0
+
+
+byte 0	# tree
+byte 2 	# palma
+short 65
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 80
+int 0
+
+
+byte 0	# tree
+byte 2 	# palma
+short 124
+int 0
+
+
+
+byte 0	# tree
+byte 2 	# palma
+short 460
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 475
+int 0
+
+byte 0	# tree
+byte 2 	# palma
+short 340
+int 0
+
+
+#------------ bajte ------------------
+
+
+byte 2  # building
+byte 1  # church
+short 154
+byte 4
+int	1	# flags
+
+
+
+byte 2  # building
+byte 3  # factory
+short 273
+byte 6
+int	1	# flags
+
+byte 2  # building
+byte 3  # factory
+short 200
+byte 6
+int	1	# flags
+
+byte 2  # building
+byte 2  # haus
+short 360
+byte 2
+int	1	# flags
+
+
+#------------ tanki ------------------
+
+
+
+byte 1  # tank
+byte 0	# type 0
+short 300
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 440
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 236
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 400
+int 		1 #flags
+
+byte 1  # tank
+byte 0	# type 0
+short 92
+int 		1 #flags
+
+
+# ------ oblaki
+# 3 - cloud (byte type, short x, short y, short vx)
+
+byte 3  # cloud
+byte 0	# type 0
+short 100
+short -100
+short 2
+
+byte 3  # cloud
+byte 0	# type 0
+short 340
+short -160
+short 3
+
+byte 3  # cloud
+byte 0	# type 0
+short 40
+short -120
+short 2
+
+
+
+
+byte 3  # cloud
+byte 0	# type 0
+short 300
+short -140
+short 1
+
+
+byte 3  # cloud
+byte 0	# type 0
+short 200
+short -120
+short 2
+
+
+
+
+
+
+byte -1		#end
+
